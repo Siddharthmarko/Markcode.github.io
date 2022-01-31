@@ -1,0 +1,997 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("BG stuff.png");
+  background-position: center 7%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+li,
+p {
+  line-height: 150%;
+}
+
+li {
+  font-size: 1.7rem;
+  font-weight: 800;
+  list-style: none;
+}
+
+button {
+  border-radius: 0.5rem;
+  border: 1px solid;
+  font-size: 2.1rem;
+  color: white;
+  background-color: #4BA87D;
+  font-weight: 900;
+  outline: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 4.4rem;
+  font-weight: 900;
+  line-height: 4.8rem;
+}
+
+h3 {
+  font-size: 3.4rem;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 10rem;
+}
+
+nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu {
+  margin-left: 24.3rem;
+}
+
+.menu li {
+  margin: 0 1.9rem;
+}
+
+.menu button {
+  padding: 1rem 2rem;
+  margin: 0 1.9rem;
+}
+
+.hero {
+  margin: 10rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 108.8rem;
+  height: 38.3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url("photo-1544717302-de2939b7ef71 (image).png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  -webkit-filter: drop-shadow(0px 3px 16px rgba(0, 0, 0, 0.160784));
+          filter: drop-shadow(0px 3px 16px rgba(0, 0, 0, 0.160784));
+}
+
+.title {
+  width: 48.9rem;
+  height: 31.7rem;
+}
+
+.title div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title h4 {
+  margin: 2.3rem 0;
+}
+
+.title button {
+  width: 200px;
+  height: 65px;
+}
+
+.hero-btn {
+  color: #4BA87D;
+  border: 2px solid #4BA87D;
+  background-color: transparent;
+  margin-left: 4.5rem;
+}
+
+.vid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 94.4rem;
+  height: 53.1rem;
+  margin: 27.9rem auto 10rem auto;
+  background-image: url("VIDEO.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.vid h1 {
+  color: white;
+}
+
+.vid-btn {
+  margin-top: 6rem;
+  width: 20rem;
+  height: 6.5rem;
+  background: white;
+  color: #4BA87D;
+}
+
+.engage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto 5.8rem auto;
+  width: 109.8rem;
+  height: 53.3rem;
+}
+
+.engage div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-repeat: no-repeat;
+}
+
+.engage div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+  width: 31.5rem;
+  height: 19.6rem;
+  padding: 2rem 3rem;
+}
+
+.engage div p {
+  margin: 0.4rem 0;
+}
+
+.engage-block1 {
+  background-image: url("photo.png");
+  width: 32rem;
+  height: 44.9rem;
+  background-position: center top;
+  -webkit-filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.160784));
+          filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.160784));
+  margin-bottom: 8.4rem;
+}
+
+.engage-block2 {
+  background-image: url("photo (1).png");
+  width: 32rem;
+  height: 44.9rem;
+  background-position: 35% top;
+  -webkit-filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.160784));
+          filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.160784));
+  margin-top: 8.8rem;
+}
+
+.engage-more {
+  color: #4BA87D;
+}
+
+.engage-text {
+  width: 36.5rem;
+  height: 32.4rem;
+  margin-top: 4.4rem;
+}
+
+.engage-text h2 {
+  line-height: 4.8rem;
+}
+
+.engage-text h4 {
+  margin: 2.4rem 4.2rem 0 0;
+}
+
+.member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 7.5rem auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 108.9rem;
+  height: 53rem;
+}
+
+.member img {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.member h2 {
+  width: 90.4rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+  line-height: 4.8rem;
+}
+
+.member-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.member-img div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.member-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  color: white;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-weight: 900;
+  margin: 0.7rem 2.7rem;
+}
+
+.member-text {
+  margin: 0 auto;
+  width: 66.8rem;
+  height: 11rem;
+}
+
+.member-text form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.member-text form input {
+  width: 42rem;
+  height: 6.5rem;
+}
+
+.member-text form button {
+  width: 22.1rem;
+  height: 6.5rem;
+}
+
+.member-text p {
+  margin: 2rem 0 0 2.5rem;
+  color: #4BA87D;
+}
+
+.brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 7.5rem auto;
+  width: 94.4rem;
+  height: 21.1rem;
+}
+
+.brand h2 {
+  text-align: center;
+  padding: 0 25rem;
+  width: 94.4rem;
+}
+
+.brand-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #4BA87D;
+  color: white;
+  height: 36.6rem;
+  border: 1px solid  q red;
+  width: 100%;
+}
+
+.plan button {
+  margin-top: 5rem;
+  width: 20rem;
+  height: 6.5rem;
+  background-color: white;
+  color: #4BA87D;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 43.3rem;
+}
+
+.footer-listing {
+  margin: 0 auto;
+  margin-top: 7.9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 199.86px;
+}
+
+.footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-list ul {
+  margin-right: 9rem;
+}
+
+.footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.copyright {
+  border-top: 1px solid #DBDBDB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 9.6rem;
+  margin: 5.6rem auto 0 auto;
+}
+
+.hiddenform1 {
+  display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  header {
+    width: 100%;
+    height: 6.2rem;
+  }
+  header img {
+    width: 45%;
+    height: 0%;
+  }
+  header h3 {
+    margin-left: -2rem;
+    font-size: 2.2rem;
+  }
+  .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .menu {
+    margin-left: 1rem;
+  }
+  .menu li {
+    display: none;
+    margin: 0 0.2rem;
+  }
+  .menu button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.1rem;
+    width: 11rem;
+    height: 2.5rem;
+    padding: 1.5rem 0;
+  }
+  .hero {
+    margin: 0.8rem auto 4rem;
+    width: 30rem;
+    height: 32.4rem;
+    background-size: contain;
+  }
+  .title {
+    width: 100%;
+    height: 100%;
+  }
+  .title div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .title h1 {
+    font-size: 3.6rem;
+    line-height: 4.6rem;
+  }
+  .title h4 {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin: 9.8rem 0 1.6rem 0;
+  }
+  .title button {
+    font-size: 13px;
+    width: 14.3rem;
+    height: 4rem;
+  }
+  .vid {
+    width: 30.4rem;
+    height: 17.1rem;
+    margin: 4rem auto 3rem auto;
+    background-size: cover;
+  }
+  .vid h1 {
+    font-size: 22px;
+  }
+  .vid-btn {
+    font-size: 6px;
+    margin-top: 2rem;
+    width: 65px;
+    height: 21px;
+  }
+  .engage {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto 1rem auto;
+    width: 30.2rem;
+    height: 82.3rem;
+  }
+  .engage div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .engage div div {
+    width: 20.9rem;
+    height: 12.8rem;
+    padding: 2rem 3rem;
+  }
+  .engage div p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin: 0.4rem 0;
+  }
+  .engage-block1 {
+    width: 20.9rem;
+    height: 29.4rem;
+    background-position: 48% top;
+    background-size: 155% 65%;
+    margin-bottom: 0;
+  }
+  .engage-block2 {
+    width: 209.29px;
+    height: 290.16px;
+    background-position: 28% top;
+    margin: 1.5rem 0 1rem auto;
+    background-size: 136% 65%;
+  }
+  .engage-text {
+    width: 232px;
+    height: 206px;
+    margin: 0 auto;
+  }
+  .engage-text h2 {
+    font-size: 28px;
+    line-height: 31px;
+  }
+  .engage-text h4 {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 1.2rem 0;
+    width: 20rem;
+  }
+  .member {
+    margin: 4.5rem auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 23.9rem;
+    height: 84.3rem;
+  }
+  .member img {
+    width: 90%;
+    margin: 0 auto 2rem auto;
+  }
+  .member h2 {
+    margin-top: 6rem;
+    width: 100%;
+    text-align: left;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .member-img {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .member-name {
+    margin: 2.6rem 2.9rem;
+  }
+  .member-name h3 {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+  .member-name h4 {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+  .member-text {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    width: 223px;
+    height: 111px;
+    height: auto;
+  }
+  .member-text form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .member-text form input {
+    width: 22.3rem;
+    height: 4.2rem;
+  }
+  .member-text form button {
+    font-size: 1.3rem;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    width: 14.4rem;
+    height: 4.2rem;
+  }
+  .member-text p {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .brand {
+    margin: 5.4rem auto;
+    width: 28.1rem;
+    height: 24.2rem;
+  }
+  .brand h2 {
+    text-align: center;
+    width: 28.1rem;
+    padding: 0;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+  }
+  .brand-logo {
+    width: 23.7rem;
+    height: 13.7rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .brand-logo img {
+    width: 35%;
+  }
+  .plan {
+    height: 290px;
+    width: 100%;
+  }
+  .plan h1 {
+    text-align: center;
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .plan button {
+    margin-top: 5rem;
+    width: 131px;
+    height: 42px;
+    font-size: 13px;
+  }
+  footer {
+    width: 32rem;
+    height: 31.5rem;
+  }
+  .footer-listing {
+    margin: 4.7rem 0 1.17rem 1.7rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 21.1rem;
+    height: 25.228rem;
+  }
+  .footer-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 211px;
+    height: 214.28px;
+  }
+  .footer-list ul {
+    margin-right: 9rem;
+  }
+  .footer-list ul li {
+    font-size: 12px;
+    margin: 2.3px 0;
+  }
+  .footer-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer-logo h3 {
+    font-size: 16px;
+  }
+  .footer-logo img {
+    width: 31%;
+    height: 0%;
+  }
+  .copyright {
+    border-top: 1px solid #DBDBDB;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    margin: 5.6rem auto 0 auto;
+    padding-top: 2.2rem;
+  }
+  .copyright h5 {
+    height: 31px;
+    margin: 0 0 5.6rem 1.7rem;
+  }
+  .copyright h3 {
+    width: 84px;
+    border: 1px solid red;
+    margin: 2.2rem 0 1.4rem 1.7rem;
+    width: 186px;
+    font-size: 9px;
+    line-height: 19px;
+  }
+  body {
+    background-image: url("BG stuff1.png");
+    background-size: contain;
+    background-position: 0% 21%;
+  }
+  .hiddenform1 {
+    display: block;
+  }
+  .hiddenform2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+  header {
+    width: 100%;
+  }
+  header h3 {
+    display: none;
+  }
+  .menu {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  .menu li {
+    margin: 0 0.5rem;
+  }
+  .menu button {
+    font-size: 2rem;
+    border: 0;
+    margin: 1rem;
+    width: 200px;
+    height: 65px;
+  }
+  nav {
+    margin: 0;
+    width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  nav div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero {
+    width: 100%;
+  }
+  .title {
+    width: 52%;
+  }
+  .vid {
+    width: 100%;
+    background-size: cover;
+  }
+  .vid-btn {
+    padding: 1rem;
+    width: 200px;
+  }
+  .engage {
+    width: 100%;
+  }
+  .member {
+    width: 100%;
+  }
+  .member img {
+    width: 90%;
+  }
+  .member h2 {
+    width: 100%;
+  }
+  .member-text {
+    width: 100%;
+  }
+  .member-text form {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .member-text form button {
+    font-size: 1.6rem;
+    width: 14.4rem;
+  }
+  .brand {
+    width: 100%;
+  }
+  .brand h2 {
+    padding: 0 10rem;
+    width: 100%;
+  }
+  .brand-logo {
+    width: 100%;
+  }
+  .plan {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  .copyright {
+    width: 100%;
+  }
+  .copyright h3 {
+    width: 100%;
+  }
+  .footer-listing {
+    width: 100%;
+    border: 1px solid red;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer-list {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border: 1px solid red;
+  }
+  .footer-list ul {
+    margin-right: 1.5rem;
+  }
+  .engage {
+    width: 100%;
+  }
+  .engage div {
+    width: 30%;
+    height: 80%;
+  }
+  .engage div div {
+    width: 100%;
+    height: 35%;
+  }
+  .engage-text h2 {
+    font-size: 4rem;
+    line-height: 3.8rem;
+  }
+  .engage-text h4 {
+    font-size: 2rem;
+    margin: 2.4rem 4.2rem 0 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
